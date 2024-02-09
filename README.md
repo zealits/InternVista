@@ -12,8 +12,8 @@ To run the development environment of the application locally on your computer, 
 ### 1. Fork and Clone the Repository
 
 ```sh
-git clone https://github.com/Mustkeem0910/InternVista.git
-cd Reactive-Resume
+git clone https://github.com/zealits/InternVista.git
+cd InternVista
 ```
 
 ### 2. Install dependencies
