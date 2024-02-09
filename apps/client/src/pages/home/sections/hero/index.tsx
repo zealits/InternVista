@@ -37,7 +37,7 @@ export const HeroSection = () => {
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 1.5, duration: 1 }}
-            className="prose prose-base prose-zinc sm:mt-3 lg:mt-6 text-md md:text-lg leading-8 dark:prose-invert"
+            className=" sm:mt-3 lg:mt-6 text-md md:text-lg leading-8 "
           >
             {t`Embark on a transformative journey with InternVista Internships. Explore exciting internship roles, receive professional development, and engage in networking opportunities. Join us and shape your future success!`}
           </motion.p>

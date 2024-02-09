@@ -31,8 +31,8 @@ export const SettingsPage = () => (
           <AccountSettings />
           <Separator />
           <SecuritySettings />
-          <Separator />
-          <ProfileSettings />
+          {/* <Separator /> */}
+          {/* <ProfileSettings /> */}
           <Separator />
           <OpenAISettings />
           <Separator />

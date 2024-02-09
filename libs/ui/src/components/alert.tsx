@@ -6,7 +6,10 @@ import { alertVariants } from "../variants/alert";
 
 interface AlertProps
   extends React.HTMLAttributes<HTMLDivElement>,
-    VariantProps<typeof alertVariants> {}
+    VariantProps<typeof alertVariants> {
+  onClose?: () => void;
+}
+
 
 export const Alert = forwardRef<HTMLDivElement, AlertProps>(
   ({ className, variant, ...props }, ref) => (

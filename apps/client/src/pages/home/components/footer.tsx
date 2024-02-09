@@ -92,10 +92,10 @@ export const Footer = () => (
       {/* <div className="relative col-start-4 flex flex-col items-end justify-end">
 
         {/* Locale and Theme Switch */}
-        {/* <div className="absolute bottom-0 right-0 lg:space-x-2">
-          <LocaleSwitch />
-          <ThemeSwitch />
-        </div> */}
+        <div className="absolute bottom-0 right-0 lg:space-x-2">
+          {/* <LocaleSwitch />
+          <ThemeSwitch /> */}
+        </div>
       {/* </div> */} 
     </div>
 
