@@ -21,11 +21,14 @@ export const Footer = () => (
         </p>
 
         <div className="flex gap-3 ">
+        <a href="https://www.facebook.com/intervistacom" target="_blank" rel="noopener noreferrer" className='hover:text-gradient'>
         <FacebookLogo size={32} weight="bold" className="hover:text-gradient"  />
+        </a>
         <TwitterLogo size={32} weight="bold" className="hover:text-gradient"  />
         <InstagramLogo size={32}  weight="bold"  className="hover:text-gradient"  />
+        <a href="https://www.linkedin.com/company/internvista/" target="_blank" rel="noopener noreferrer" className='hover:text-gradient'>
         <LinkedinLogo size={32}  weight="bold"  className="hover:text-gradient"  />
- 
+        </a>
         </div>
       </div>
 

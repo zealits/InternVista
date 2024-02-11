@@ -136,7 +136,7 @@ export const Sidebar = ({ setOpen }: SidebarProps) => {
         ))}
       </div>
 
-      <div className="flex-1" />
+      {/* <div className="flex-1" /> */}
 
       <Separator className="opacity-50" />
 

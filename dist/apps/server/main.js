@@ -11609,7 +11609,7 @@ let AuthService = class AuthService {
         await this.userService.updateByEmail(email, {
             secrets: { update: { resetToken: token } },
         });
-        const url = `${this.utils.getUrl()}/auth/reset-password?token=${token}`;
+        const url = `http://internvista.com/auth/reset-password?token=${token}`;
         const subject = "Reset your Reactive Resume password";
         const text = `Please click on the link below to reset your password:\n\n${url}`;
         await this.mailService.sendEmail({ to: email, subject, text });
@@ -11652,7 +11652,7 @@ let AuthService = class AuthService {
             await this.userService.updateByEmail(email, {
                 secrets: { update: { verificationToken: token } },
             });
-            const url = `${this.utils.getUrl()}/auth/verify-email?token=${token}`;
+            const url = `http://internvista.com/auth/verify-email?token=${token}`;
             const subject = "Verify your email address";
             const text = `Please verify your email address by clicking on the link below:\n\n${url}`;
             await this.mailService.sendEmail({ to: email, subject, text });

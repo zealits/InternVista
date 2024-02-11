@@ -112,13 +112,16 @@ export const Header: React.FC = () => {
           <a href="#contact" className="hover:text-gradient">
             Contact
           </a>
-          
+<a href="https://www.facebook.com/intervistacom" target="_blank" rel="noopener noreferrer" className='hover:text-gradient'>         
 <FacebookLogo size={24}  weight="fill" className='hover:text-gradient'/>
+</a>
 
-        <TwitterLogo size={24} weight="bold" className='hover:text-gradient' />
-       
+  <TwitterLogo size={24} weight="bold" />
+
+
+<a href="https://www.linkedin.com/company/internvista/" target="_blank" rel="noopener noreferrer" className='hover:text-gradient'>
         <LinkedinLogo size={23}  weight="bold"  className='hover:text-gradient' />
-
+        </a>
         </div>
       </nav>
     </>

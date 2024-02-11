@@ -21,7 +21,7 @@ export const HomePage = () => {
         <html lang={i18n.locale} />
 
         <title>
-          {t`InternVista`} - {t`At InternVista Internships, we are committed to shaping future leaders. Our programs focus on providing the skills and knowledge necessary for success.`}
+          {t`InternVista`} - {t`Unlock your potential with the perfect internship match!.`}
         </title>
 
         <meta
