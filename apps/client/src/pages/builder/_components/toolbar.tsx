@@ -135,7 +135,7 @@ export const BuilderToolbar = () => {
             variant="ghost"
             className="rounded-none"
             onClick={onCopy}
-            disabled={!isPublic}
+            // disabled={!isPublic}
           >
             <LinkSimple />
           </Button>
