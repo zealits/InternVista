@@ -10,7 +10,6 @@ interface AlertProps
   onClose?: () => void;
 }
 
-
 export const Alert = forwardRef<HTMLDivElement, AlertProps>(
   ({ className, variant, ...props }, ref) => (
     <div ref={ref} role="alert" className={cn(alertVariants({ variant }), className)} {...props} />

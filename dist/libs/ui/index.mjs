@@ -4652,20 +4652,20 @@ const Nc = (n) => typeof n == "boolean" ? "".concat(n) : n === 0 ? "0" : n, kc =
 ), J2 = E(
   ({ className: n, variant: e, ...t }, r) => /* @__PURE__ */ g("div", { ref: r, role: "alert", className: I(K2({ variant: e }), n), ...t }, void 0, !1, {
     fileName: "C:/Users/lenovo/Downloads/gitclones/zealits/InternVista/libs/ui/src/components/alert.tsx",
-    lineNumber: 16,
+    lineNumber: 15,
     columnNumber: 5
   }, void 0)
 );
 J2.displayName = "Alert";
 const G2 = E(({ className: n, children: e, ...t }, r) => /* @__PURE__ */ g("h5", { ref: r, className: I("font-medium tracking-tight", n), ...t, children: e }, void 0, !1, {
   fileName: "C:/Users/lenovo/Downloads/gitclones/zealits/InternVista/libs/ui/src/components/alert.tsx",
-  lineNumber: 26,
+  lineNumber: 25,
   columnNumber: 3
 }, void 0));
 G2.displayName = "AlertTitle";
 const Y2 = E(({ className: n, ...e }, t) => /* @__PURE__ */ g("div", { ref: t, className: I("pt-0.5 leading-normal", n), ...e }, void 0, !1, {
   fileName: "C:/Users/lenovo/Downloads/gitclones/zealits/InternVista/libs/ui/src/components/alert.tsx",
-  lineNumber: 37,
+  lineNumber: 36,
   columnNumber: 3
 }, void 0));
 Y2.displayName = "AlertDescription";

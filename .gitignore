@@ -1,5 +1,5 @@
 # Compiled Output
-# dist
+dist
 tmp
 /out-tsc
 
@@ -47,10 +47,11 @@ Thumbs.db
 .nx
 .swc
 fly.toml
+stats.html
 libs/prisma
 
 # Environment Variables
-# *.env*
+*.env*
 !.env.example
 
 # Lingui Compiled Messages
